@@ -16,23 +16,27 @@
             <a class="navbar-brand"><i class="fa fa-instagram" aria-hidden="true"></i> instagram</a>
             <form class="d-flex" role="search">
                 <!-- boton del modal -->
-                <button type="button" class="btn btn-success mx-2" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                <button type="button" class="btn btn-success mx-2" data-bs-toggle="modal"
+                    data-bs-target="#exampleModal">
                     create a new post
                 </button>
                 <!-- boton configuracion -->
                 <div class="btn-group">
-                    <button type="button" class="btn btn-secondary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                    <button type="button" class="btn btn-secondary dropdown-toggle" data-bs-toggle="dropdown"
+                        aria-expanded="false">
                         <i class="fa fa-cog" aria-hidden="true"></i>
                     </button>
                     <ul class="dropdown-menu dropdown-menu-end">
-                      <li><a class="dropdown-item" href="#">profile</a></li>
-                      <li><a class="dropdown-item" href="#">accesibility</a></li>
-                      <li><a class="dropdown-item" href="#">privacity and data</a></li>
-                      <li><hr class="dropdown-divider"></li>
-                      <li><a class="dropdown-item text-danger" href="#">log out</a></li>
+                        <li><a class="dropdown-item" href="#">profile</a></li>
+                        <li><a class="dropdown-item" href="#">accesibility</a></li>
+                        <li><a class="dropdown-item" href="#">privacity and data</a></li>
+                        <li>
+                            <hr class="dropdown-divider">
+                        </li>
+                        <li><a class="dropdown-item text-danger" href="#">log out</a></li>
                     </ul>
-                  </div>
-                
+                </div>
+
             </form>
         </div>
         <!-- modal -->
@@ -46,11 +50,14 @@
                     <div class="modal-body">
                         caption:
                         <div class="form-floating">
-                            <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea"></textarea>
+                            <textarea class="form-control" placeholder="Leave a comment here"
+                                id="floatingTextarea"></textarea>
                             <label for="floatingTextarea">Comments</label>
-                          </div>
-                          <button type="button" class="btn btn-light"><i class="fa fa-camera" aria-hidden="true"></i></button>
-                          <button type="button" class="btn btn-light"><i class="fa fa-map-pin" aria-hidden="true"></i></button>
+                        </div>
+                        <button type="button" class="btn btn-light"><i class="fa fa-camera"
+                                aria-hidden="true"></i></button>
+                        <button type="button" class="btn btn-light"><i class="fa fa-map-pin"
+                                aria-hidden="true"></i></button>
 
                     </div>
                     <div class="modal-footer">
@@ -61,7 +68,67 @@
             </div>
         </div>
     </nav>
+    <div class="">
+        <ul class="nav nav-tabs d-flex justify-content-center" id="myTab" role="tablist">
+            <li class="nav-item" role="presentation">
+                <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home-tab-pane"
+                    type="button" role="tab" aria-controls="home-tab-pane" aria-selected="true">
+                    <i class="fa fa-th" aria-hidden="true"></i>
+                </button>
+            </li>
+            <li class="nav-item" role="presentation">
+                <button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile-tab-pane"
+                    type="button" role="tab" aria-controls="profile-tab-pane" aria-selected="false">
+                    <i class="fa fa-square" aria-hidden="true"></i>
+                </button>
+            </li>
 
+
+        </ul>
+        <div class="tab-content" id="myTabContent">
+            <div class="tab-pane fade show active" id="home-tab-pane" role="tabpanel" aria-labelledby="home-tab"
+                tabindex="0">
+                <div class="container text-center">
+                    <div class="row">
+                      <div class="col">
+                        <img class="img-thumbnail" src="https://cdn.sanity.io/images/5vm5yn1d/pro/5cb1f9400891d9da5a4926d7814bd1b89127ecba-1300x867.jpg?fm=webp&q=80 ">
+                      </div>
+                      <div class="col">
+                        <img class="img-thumbnail" src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/Eiche_bei_Graditz.jpg/640px-Eiche_bei_Graditz.jpg">
+                      </div>
+                      <div class="col">
+                        Column
+                      </div>
+                    </div>
+                    <div class="row">
+                        <div class="col">
+                          Column
+                        </div>
+                        <div class="col">
+                          Column
+                        </div>
+                        <div class="col">
+                          Column
+                        </div>
+                      </div>
+                      <div class="row">
+                        <div class="col">
+                          Column
+                        </div>
+                        <div class="col">
+                          Column
+                        </div>
+                        <div class="col">
+                          Column
+                        </div>
+                      </div>
+                  </div>
+            </div>
+            <div class="tab-pane fade" id="profile-tab-pane" role="tabpanel" aria-labelledby="profile-tab" tabindex="0">
+                ACA TENGO QUE TRABAJAR
+            </div>
+        </div>
+    </div>
 
 
 
